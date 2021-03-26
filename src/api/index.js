@@ -1,5 +1,4 @@
 import axios from 'axios';
-const corsUrl = "http://0.0.0.0:8080/";
 
 
 const Api = (url,data) => {
@@ -20,7 +19,7 @@ const Api = (url,data) => {
     }
 
     return axios({
-    url: corsUrl+url,
+    url: url,
     method: 'POST',
     headers: {
         'Accept': 'application/json',
