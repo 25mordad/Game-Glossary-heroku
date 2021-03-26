@@ -1,5 +1,5 @@
 import axios from 'axios';
-const corsUrl = "http://0.0.0.0:8080/";
+// const corsUrl = "http://0.0.0.0:8080/";
 
 (function() {
     var cors_api_host = 'secure-crag-64258.herokuapp.com';
